@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+/*Navbar Section */
+.navbar-brand{
+	font-size: 1.5rem;
+}
+.navbar-nav a{
+	font-size: 1.5rem;
+	text-align: center;
+    color: #b9b6af;
+}
+.navbar-nav a:hover{
+	transform: scale(1.1);
+    color: #2F58CD;
+     
+}
+.nav-item{
+	margin: auto 10%;
+	font-family: 'Karla', sans-serif;
+}
+.navbar{
+    box-shadow: 2px 1px 22px -11px rgba(0,0,0,0.5);
+-webkit-box-shadow: 2px 1px 22px -11px rgba(0,0,0,0.5);
+-moz-box-shadow: 2px 1px 22px -11px rgba(0,0,0,0.5);
+    
+}
+
+
+/*  Home Section */
+ .home-row{
+ 	font-family: 'Open Sans', sans-serif;
+    font-size: calc(1rem + 0.390625vw);
+    font-weight: 500;
+   
+    
+}
+ #home{
+     position: relative;
+     padding: 10% 12% 5% 12%;
+     background-color: #FAFAFA;
+     
+ }
+ .home-row i{
+    padding-right: 7px;
+ }
+ .home-row button{
+     margin-right: 10px;
+     
+ }
+
+ .home-row h1,h2,p{
+     margin-bottom: 7%;
+ }
+ .home-row h1,h2{
+    font-weight: bold;
+    font-size: calc(2.5rem + 0.390625vw);
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+ /*---------------------------------------------------------------------------------------*/
+
+ /* Up Icon */
+.icon{
+    position: fixed;
+    top: 80%;
+    left: 94%;
+    z-index: 1;
+    opacity: 0.8;
+  }
+  
+  .icon i{
+    font-size: 38px;
+    margin-top: 20px;
+    color: black;
+  
+  }
+  .icon i:hover{
+      transform: scale(1.05);
+  }
+
+ /*--------------------------------------------------------------------------------------*/
+
+/*About Me Section*/
+#about .about-part1{
+	padding: 4% 6%;
+    margin: 3% 10%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 42px 42px 42px 42px;-webkit-border-radius: 42px 42px 42px 42px;-moz-border-radius: 42px 42px 42px 42px;
+	text-align: center;
+	color: black;
+    background-color: #FAFAFA;
+    
+}
+
+#about .about-part1 a{
+    color: black;
+    font-size: 1.3rem;
+}
+
+#resume{
+    padding-top: 7%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(2.5rem + 0.390625vw);
+}
+.about-description h2{
+    margin-bottom: 8%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(2rem + 0.390625vw);
+}
+.about-description p{
+    margin-bottom: 3%;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.95rem + 0.390625vw);
+}
+.about-description button:hover{
+    transform: scale(1.1);
+}
+.about-description .fa-brands{
+    padding-right: 5%;
+}
+/*---------------------------------------------------------------------------------------*/
+
+/*Resume Section*/
+#resume-section{
+	background-color: white;	
+	padding: 3% 10%;
+    
+}
+
+#resume-section p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.90rem + 0.390625vw);
+    padding-top: 3%;
+    text-align: justify;
+}
+
+#resume-section h2{
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(1.75rem + 0.390625vw);
+}
+.education{
+    background-color: #FAFAFA;
+    margin-top: 8%;
+    padding: 4% 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 42px 42px 42px 42px;-webkit-border-radius: 42px 42px 42px 42px;-moz-border-radius: 42px 42px 42px 42px;
+}
+.resume-image{
+    max-height: 400px;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* Skills Section */
+#skill-section{
+    background-image: url('https://github.blog/wp-content/uploads/2019/01/48741268-5a647e00-ec0f-11e8-9f08-90a689c41438.png?resize=1600%2C850');
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   border-radius: 42px 42px 42px 42px;-webkit-border-radius: 42px 42px 42px 42px;-moz-border-radius: 42px 42px 42px 42px;
+    margin: 1% 10%; */
+    overflow-x: hidden;
+    
+}
+#skill-section img{    
+    margin: 2% 4%;
+    padding: 3% 0;
+}
+#skill-section .container-fluid{
+    text-align: center;
+ }
+
+#skill-section h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(1.75rem + 0.390625vw);
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/* Pojects Section */
+#projects-section{
+    padding: 7% 10%;
+    margin: 6% auto 3% auto;
+    text-align:justify;
+    word-spacing:-2px;
+    background-color: #FAFAFA;
+     
+}
+#projects-section .card i{
+    margin-right: 8px;
+}
+#projects-section .card button{
+    text-align: center;
+    width: 75%;
+     position: absolute;
+    bottom: 8%;
+    box-shadow: 2px 3px 7px -3px rgba(0,0,0,0.61);
+-webkit-box-shadow: 2px 3px 7px -3px rgba(0,0,0,0.61);
+-moz-box-shadow: 2px 3px 7px -3px rgba(0,0,0,0.61);  
+    border-radius: 37px 37px 37px 37px;
+-webkit-border-radius: 37px 37px 37px 37px;
+-moz-border-radius: 37px 37px 37px 37px;
+}
+#projects-section .card img{
+    height: 90px;
+    width:  90px;
+    margin: 4% auto;
+}
+
+#projects-section .card{
+    /*box-shadow: 1px 1px 7px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 7px -2px rgba(0,0,0,0.75);*/
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   /* border-radius: 40px 40px 40px 40px;-webkit-border-radius: 40px 40px 40px 40px;-moz-border-radius: 40px 40px 40px 40px;*/
+    background-color: white;
+    color: black;
+    padding: 4% 6%;
+}
+#projects-section .card:hover{
+    background-color: #2F58CD;
+    color: white;
+    transform: scale(1.05);    
+}
+
+#projects-section h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(2.5rem + 0.390625vw); 
+    text-align: center;
+    margin: 0 auto 7% auto;   
+}
+#projects-section .card p{    
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.85rem + 0.390625vw);
+    margin-bottom: 25%;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Githyb Links */
+#github-section{
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 42px 42px 42px 42px;-webkit-border-radius: 42px 42px 42px 42px;-moz-border-radius: 42px 42px 42px 42px;
+    margin: 2% 10%; */
+    padding: 3% 6%;
+    background-image: url('https://github.blog/wp-content/uploads/2021/02/card.png?resize=1200%2C630');
+    overflow-x: hidden;
+    height: 40vw;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    color: white;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* Fiverr Section */
+#fiverr-section{
+    padding: 0 10% 4% 10%;
+    margin-top: 4%;
+    
+}
+#fiverr-section h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: calc(1.75rem + 0.390625vw);
+}
+#fiverr-section .card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   /* border-radius: 22px 22px 22px 22px;-webkit-border-radius: 22px 22px 22px 22px;-moz-border-radius: 22px 22px 22px 22px;*/
+    text-align: justify;
+}
+#fiverr-section .card img{
+   /* border-radius: 42px 42px 0px 0px;-webkit-border-radius: 42px 42px 0px 0px;-moz-border-radius: 42px 42px 0px 0px;*/
+}
+#fiverr-section .card-body button{
+    text-align: center;
+    width: 100%;
+    margin: 2% auto;
+} 
+/*-----------------------------------------------------------------------------------------*/
+
+/* Contact Section*/
+#contact{
+    padding: 7% 10% 6% 10%;
+    background-color: white;    
+}
+#contact button{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;    
+}
+#contact h1{
+   text-align: center;
+   padding: 0 0 8% 0;
+   font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(2.5rem + 0.390625vw);
+}
+.contact-form{
+    background-color: #FAFAFA;
+   font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.85rem + 0.390625vw);
+   padding: 6%;
+   border-radius: 5%;
+   color:black;
+   box-shadow: 6px 6px 33px -5px rgba(0,0,0,0.54);
+-moz-box-shadow: 6px 6px 33px -5px rgba(0,0,0,0.54);
+box-shadow: 6px 6px 33px -5px rgba(0,0,0,0.54);
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+/*Footer Section*/
+#footer-section{
+
+   padding: 2% 0 1% 0;
+   background-color: black;
+   font-family: 'Open Sans', sans-serif;
+    font-size: calc(0.85rem + 0.390625vw);
+}
+
+#footer-section .social i{
+   margin: 2% 2% 2% 2%;
+   color: white;
+   opacity: 0.5;
+}
+#footer-section .social i:hover{
+    color: #2F58CD;
+    opacity: 1;
+ }
+#footer-section .card{
+    background-color: black;
+}
+#footer-section .links a{
+   margin: 0 4% 2% 4%;
+   color: white;
+   text-decoration: none;
+}
+#footer-section .links a:hover{
+    color: #2F58CD;    
+ }
+  
+/*----------------------------------------------------------------------------------------*/

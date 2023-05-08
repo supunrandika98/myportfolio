@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+     
+
+    #home{
+        padding-top: 20%;
+        text-align: center;        
+    }
+
+   .icon{
+        left: 90%;
+    }
+
+    #about{
+        padding-top: 15%;
+    }    
+    #about .about-part1{
+        margin: 3% 6%;
+        padding: 6% 6%;
+    }
+    #resume-section{
+        padding: 4% 6%;
+        text-align: start;
+    }
+    #projects{
+        padding-top: 15%; 
+    }
+    #projects-section{
+        padding: 4% 6%;
+        text-align:justify;
+        word-break: break-all;
+    }
+    #github-section{
+        margin: 10% auto 20% auto;
+    }
+    #contact{
+        padding: 4% 6%;
+        padding-top: 15%;
+        margin-bottom: 12%;
+    }
+    #fiverr-section{
+        padding: 4% 6%;
+    }
+
+}
