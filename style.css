@@ -34,7 +34,7 @@ body{
 
 /*  Home Section */
  .home-row{
- 	font-family: 'Open Sans', sans-serif;
+ 	font-family: 'Quicksand', sans-serif;
     font-size: calc(1rem + 0.390625vw);
     font-weight: 500;
    
@@ -50,7 +50,9 @@ body{
     padding-right: 7px;
  }
  .home-row button{
-     margin-right: 10px;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
      
  }
 
@@ -59,8 +61,8 @@ body{
  }
  .home-row h1,h2{
     font-weight: bold;
-    font-size: calc(2.5rem + 0.390625vw);
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: calc(3rem + 0.390625vw);
+    font-family: 'Exo 2', sans-serif;
 }
 
  /*---------------------------------------------------------------------------------------*/
@@ -106,20 +108,21 @@ body{
 #resume{
     padding-top: 7%;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: calc(2.5rem + 0.390625vw);
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(3rem + 0.390625vw);
 }
 .about-description h2{
     margin-bottom: 8%;
     text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: calc(2rem + 0.390625vw);
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(2.2rem + 0.390625vw);
 }
 .about-description p{
     margin-bottom: 3%;
     text-align: justify;
-    font-family: 'Open Sans', sans-serif;
-    font-size: calc(0.95rem + 0.390625vw);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: calc(0.85rem + 0.390625vw);
 }
 .about-description button:hover{
     transform: scale(1.1);
@@ -133,31 +136,35 @@ body{
 #resume-section{
 	background-color: white;	
 	padding: 3% 10%;
-    
+        
 }
 
 #resume-section p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: calc(0.90rem + 0.390625vw);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: calc(0.80rem + 0.390625vw);
     padding-top: 3%;
     text-align: justify;
 }
 
 #resume-section h2{
     text-align: center;
-    margin: 5% 0 0 0;
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: calc(1.75rem + 0.390625vw);
+    margin: 5% 0 4% 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(2.2rem + 0.390625vw);
 }
 .education{
     background-color: #FAFAFA;
-    margin-top: 8%;
+    margin-top: 5%;
     padding: 4% 5%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 42px 42px 42px 42px;-webkit-border-radius: 42px 42px 42px 42px;-moz-border-radius: 42px 42px 42px 42px;
 }
+.education h5{
+    font-size: calc(1.05rem + 0.390625vw);
+}
 .resume-image{
-    max-height: 400px;
+    max-height: 300px;
 }
 
 /*-----------------------------------------------------------------------------------------*/
@@ -169,19 +176,22 @@ body{
    border-radius: 42px 42px 42px 42px;-webkit-border-radius: 42px 42px 42px 42px;-moz-border-radius: 42px 42px 42px 42px;
     margin: 1% 10%; */
     overflow-x: hidden;
+    margin-top: 2%;
+    padding-top: 4%;
     
 }
 #skill-section img{    
     margin: 2% 4%;
     padding: 3% 0;
+        
 }
 #skill-section .container-fluid{
     text-align: center;
  }
 
 #skill-section h2{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: calc(1.75rem + 0.390625vw);
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(2.2rem + 0.390625vw);
     text-align: center;
     padding-top: 2%;
     margin-bottom: 0;
@@ -213,6 +223,10 @@ body{
 -webkit-border-radius: 37px 37px 37px 37px;
 -moz-border-radius: 37px 37px 37px 37px;
 }
+#projects-section .card button:hover{
+    background-color: gold;
+    color: black;
+}
 #projects-section .card img{
     height: 90px;
     width:  90px;
@@ -229,6 +243,9 @@ body{
     color: black;
     padding: 4% 6%;
 }
+#projects-section .card .card-text{
+    margin-top: 5%;
+}
 #projects-section .card:hover{
     background-color: #2F58CD;
     color: white;
@@ -236,16 +253,18 @@ body{
 }
 
 #projects-section h1{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-size: calc(2.5rem + 0.390625vw); 
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(3rem + 0.390625vw); 
     text-align: center;
     margin: 0 auto 7% auto;   
 }
 #projects-section .card p{    
-    font-family: 'Open Sans', sans-serif;
-    font-size: calc(0.85rem + 0.390625vw);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: calc(0.80rem + 0.390625vw);
     margin-bottom: 25%;
 }
+
 
 /*-----------------------------------------------------------------------------------------*/
 
@@ -263,6 +282,7 @@ body{
     background-position: 0% 0%;
     background-size: 100% 100%;
     color: white;
+    font-family: 'Karla', sans-serif;
 }
 
 /*-----------------------------------------------------------------------------------------*/
@@ -275,8 +295,8 @@ body{
 }
 #fiverr-section h2{
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: calc(1.75rem + 0.390625vw);
+    font-family: 'Quicksand', sans-serif;
+    font-size: calc(2.2rem + 0.390625vw);
 }
 #fiverr-section .card{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -291,6 +311,13 @@ body{
     width: 100%;
     margin: 2% auto;
 } 
+
+#fiverr-section .card .btn-close{
+     
+     max-width: 10%;
+     position: absolute;
+     margin-top: auto;
+}
 /*-----------------------------------------------------------------------------------------*/
 
 /* Contact Section*/
@@ -306,8 +333,8 @@ body{
 #contact h1{
    text-align: center;
    padding: 0 0 8% 0;
-   font-family: 'Montserrat Alternates', sans-serif;
-    font-size: calc(2.5rem + 0.390625vw);
+   font-family: 'Quicksand', sans-serif;
+    font-size: calc(3rem + 0.390625vw);
 }
 .contact-form{
     background-color: #FAFAFA;
@@ -326,10 +353,10 @@ box-shadow: 6px 6px 33px -5px rgba(0,0,0,0.54);
 
 /*Footer Section*/
 #footer-section{
-
    padding: 2% 0 1% 0;
    background-color: black;
-   font-family: 'Open Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     font-size: calc(0.85rem + 0.390625vw);
 }
 
