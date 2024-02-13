@@ -223,6 +223,7 @@ body{
 -webkit-border-radius: 37px 37px 37px 37px;
 -moz-border-radius: 37px 37px 37px 37px;
 }
+
 #projects-section .card button:hover{
     background-color: gold;
     color: black;
@@ -303,9 +304,9 @@ body{
    /* border-radius: 22px 22px 22px 22px;-webkit-border-radius: 22px 22px 22px 22px;-moz-border-radius: 22px 22px 22px 22px;*/
     text-align: justify;
 }
-#fiverr-section .card img{
-   /* border-radius: 42px 42px 0px 0px;-webkit-border-radius: 42px 42px 0px 0px;-moz-border-radius: 42px 42px 0px 0px;*/
-}
+/* #fiverr-section .card img{
+    border-radius: 42px 42px 0px 0px;-webkit-border-radius: 42px 42px 0px 0px;-moz-border-radius: 42px 42px 0px 0px;
+} */
 #fiverr-section .card-body button{
     text-align: center;
     width: 100%;
